@@ -36,6 +36,15 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
     });
 });
 
+
+var deploy = require("gulp-gh-pages");
+
+gulp.task("deploy", ["jekyll-build"], function () {
+    return gulp.src("./_site/**/*")
+        .pipe(deploy());
+});
+
+
 /**
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  * Changed this for new file structure
