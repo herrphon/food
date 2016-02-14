@@ -450,7 +450,7 @@ body {
 .section-divider h1 {
   font-family: Open Sans Condensed, sans-serif;
   text-align: center;
-  color: #0097A7; }
+  color: #212121; }
 
 .navRow {
   padding: 10px 0;
@@ -460,7 +460,7 @@ body {
   margin-bottom: 100px; }
   .navRow nav {
     border: none;
-    border-top: solid 5px #0097A7;
+    border-top: solid 5px #212121;
     box-shadow: 0 4px 10px -2px #B6B6B6;
     background: none;
     margin-bottom: 50px; }
@@ -631,7 +631,7 @@ body {
     size: cover; }
   .post-content a {
     font-weight: 500;
-    color: #0097A7; }
+    color: #212121; }
 
 .author-card {
   text-align: center; }

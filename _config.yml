@@ -10,7 +10,7 @@ description: A collection of food posts and receipes.
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Where can people find your site?
-url: "http://localhost:3000"
+url: "http://food.phon.name"
 # When developing, set this ^ equal to whatever localhost you're using
 
 # Socail Media links
