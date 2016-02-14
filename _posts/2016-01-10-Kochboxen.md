@@ -4,8 +4,8 @@ title:  "Kochboxen"
 date:   2016-01-10 09:11:03
 categories: other
 description: ...
-thumbnail: /assets/img/thumbnails/food.jpg
-caption: food
+thumbnail: /assets/img/thumbnails/hello-fresh.jpg
+caption: Hello Fresh Box
 ---
 
 
