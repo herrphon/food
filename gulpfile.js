@@ -6,14 +6,15 @@ var cp          = require('child_process');
 var jade        = require('gulp-jade');
 var deploy      = require("gulp-gh-pages");
 
-var messages = {
-    jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
-};
+
 
 /**
  * Build the Jekyll Site
  */
 gulp.task('jekyll-build', function (done) {
+    var messages = {
+      jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
+    };
     var jekyll = process.platform === "win32" ? "jekyll.bat" : "jekyll";
 
     browserSync.notify(messages.jekyllBuild);
