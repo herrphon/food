@@ -4,7 +4,7 @@ highlighter: rouge # pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 
 # Jekyll Defaults
-title: Food and Receipes
+title: Food &amp; Receipes
 email: food-and-receipes@phon.name
 description: A collection of food posts and receipes.
 baseurl: "" # the subpath of your site, e.g. /blog
